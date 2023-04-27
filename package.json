@@ -1,0 +1,30 @@
+{
+  "name": "node-rpsls",
+  "version": "1.0.0",
+  "description": "rock, paper, scissors, lizard, spock",
+  "main": "./lib/rpsls.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a03-connor2702.git"
+  },
+  "keywords": [
+    "a03"
+  ],
+  "author": "connor2702",
+  "license": "MIT",
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "rpsls-cli.js"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a03-connor2702/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a03-connor2702#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
