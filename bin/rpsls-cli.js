@@ -23,7 +23,7 @@ if (argument.h || argument.help) {
 }
 
 if (argument.r || argument.rules) {
-    console.log(`Rules for the Lizard-Spock Espansion of Rock Paper Scissors:
+    console.log(`Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
 
     - Scissors CUTS Paper
     - Paper COVERS Rock
@@ -68,6 +68,7 @@ try {
         - Paper DISPROVES Spock
         - Spock VAPORIZES Rock
         - Rock CRUSHES Scissors`);
+
         process.exit(1);
     }
 }

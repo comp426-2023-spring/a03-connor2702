@@ -55,6 +55,7 @@ try {
         - Scissors CUTS Paper
         - Paper COVERS Rock
         - Rock CRUSHES Scissors`);
+        
         process.exit(1);
     }
 }
