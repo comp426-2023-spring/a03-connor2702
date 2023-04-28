@@ -39,6 +39,8 @@ if (argument.r || argument.rules) {
     process.exit(0);
 }
 
+console.log(JSON.stringify(rps(argument._[0]))); //
+
 try {
     console.log(JSON.stringify(rpsls(argument._[0])));
 } catch (error) {
