@@ -43,7 +43,8 @@ try {
     console.log(JSON.stringify(rpsls(argument._[0])));
 } catch (error) {
     if (error instanceof RangeError) {
-        console.log(`Usage: node-rpsls [SHOT]
+        console.log(`
+        Usage: node-rpsls [SHOT]
         Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!
         
           -h, --help        display this help message and exit
